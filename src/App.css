@@ -1,0 +1,65 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+}
+
+.dashboard {
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.tables {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.table-container {
+  flex: 1;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+.role-selector {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.role-selector button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter-panel {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
